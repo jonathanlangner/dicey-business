@@ -7,7 +7,7 @@ button{
     margin-right: 5rem;
     font-size: 6rem;
     color:whitesmoke;
-    text-shadow: 3px 3px azure;
+    text-shadow: 2px 2px azure;
     background:rgb(6, 82, 182);
     -webkit-box-shadow: -4px 10px 5px 0px rgba(255,255,255,0.5);
     -moz-box-shadow: -4px 10px 5px 0px rgba(255,255,255,0.5);
@@ -27,16 +27,17 @@ button{
 }
 div {
     margin-top: 3rem;
-    margin-left: 4rem;
+    margin-left: 3rem;
     text-align:center;
+    padding-right: 1.10rem;
     font-size:10rem;
     font-weight:900;
     color: white;
-    text-shadow: 3px 3px #97dbe0;
+    text-shadow: 2px 2px #97dbe0;
     display:block;
     height:10rem;
     width:10rem;
-    line-height: 2rem;     
+    line-height: 2.5rem;     
     background: rgba(18,86,151,1);
     background: -moz-linear-gradient(left, rgba(18,86,151,1) 0%, rgba(15,68,128,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(18,86,151,1)), color-stop(100%, rgba(15,68,128,1)));

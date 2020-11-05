@@ -5,6 +5,7 @@ const dieGeneratorButton =  document.getElementById("generate-die");
 const rollDiceButton =  document.getElementById("roll-dice");
 const sumDiceButton = document.getElementById("sum-dice");
 const dieContainer = document.getElementById("dice-table");
+
 //Global Arrays
 const dieIdInt = [];
 const dieNumParrallel = [];
