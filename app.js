@@ -12,7 +12,7 @@ const dieNumParrallel = [];
 const dieObjectContainer = [];
 
 //Closure Counter for closure practice, and for global counter purposes.
-let counter = (function(){
+const counter = (function(){
     let privateCounter = 0;
     function increaseBy(val){
         privateCounter += val;
@@ -40,7 +40,8 @@ class Die {
     }
     //Generates a die
     generateModDie(){
-       this.die =  document.createElement("div")
+       this.die =  document.createElement("div");
+       this.die.className = "dice";
        this.die.id = counter.presentValue();
        let dieTextArray = ""; 
      

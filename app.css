@@ -5,6 +5,7 @@ body{
 
 button{
     margin-right: 5rem;
+    margin-top: 3rem;
     font-size: 6rem;
     color:whitesmoke;
     text-shadow: 2px 2px azure;
@@ -25,7 +26,7 @@ button{
     justify-content: center;
     flex-wrap: wrap;
 }
-div {
+.dice {
     margin-top: 3rem;
     margin-left: 3rem;
     text-align:center;
