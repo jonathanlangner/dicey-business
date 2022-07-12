@@ -14,10 +14,10 @@ const dieObjectContainer = [];
 //Closure Counter for closure practice, and for global counter purposes.
 const counter = (function(){
     let privateCounter = 0;
-    function increaseBy(val){
+    const increaseBy = function(val){
         privateCounter += val;
     }
-    function decreaseBy(val){
+    const decreaseBy = function(val){
         privateCounter -= val;
     }
     return{
